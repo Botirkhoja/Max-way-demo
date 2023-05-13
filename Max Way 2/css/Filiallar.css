@@ -1,0 +1,119 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.nav_div img{
+    width: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-right: 30px;
+}
+
+.nav_div{
+    align-items: center;
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.imgs{
+    display: flex;
+    width: 20px;
+    gap: 15px;
+}
+
+h1{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.kart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kart p{
+    color: green;
+}
+
+.card{
+    width: 700px;
+    height: 250px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+
+}
+
+.kart1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.karts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_nimadir{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+.rasm{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.rasm1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.futer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.futter{
+    width: 80%;
+    margin: auto;
+}

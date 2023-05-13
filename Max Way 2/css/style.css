@@ -1,0 +1,154 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.nav_div img{
+    width: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-right: 30px;
+}
+
+.nav_div{
+    align-items: center;
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.imgs{
+    display: flex;
+    width: 20px;
+    gap: 15px;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.menyu1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.menyu1 button{
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.menyu1 button:hover{
+    background-color: #cdcbcb;
+    color: black;
+}
+
+.kart{
+    align-items: center;
+    width: 270px;
+    height: 320px;
+    padding-left: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    /* border: 5px solid black; */
+}
+
+.kart button{
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #51267d;
+}
+
+.kart img{
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.card_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.futer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-item img{
+border-radius:25px;
+}
+
+@media only screen and (max-width: 1395px){
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media only screen and (max-width: 1174px){
+
+    .menyu1{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1037px){
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media only screen and (max-width: 707px){
+
+    nav{
+        display: none;
+    }
+
+    .futter{
+        display: none;
+    }
+
+    .futter{
+        display: none;
+    }
+
+}
